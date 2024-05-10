@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import Button from './button'
 import {  MenuIcon, XIcon } from 'lucide-react'
 import {AnimatePresence, motion} from 'framer-motion'
@@ -8,20 +8,15 @@ function Navbar() {
   const destinations = [
     { name: 'Home', path: '/' },
     { name: 'All NFTS', path: '/all-nfts' },
-    { name: 'Tearn', path: '/tearn' },
+    { name: 'Team', path: '/team' },
     { name: 'Terms & Co.', path: '/terms' },
     { name: 'Contact', path: '/contact' },
   ]
 
   const [isOpen, setIsOpen] = React.useState(false)
 
-  const [pathname, setPathname] = useState(window.location.pathname)
-  
-  useEffect(() => {
+  const [pathname] = useState(window.location.pathname)
 
-    setPathname(window.location.pathname)
-    
-  },[window.location])
   
   return (
     <>
