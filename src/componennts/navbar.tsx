@@ -20,7 +20,7 @@ function Navbar() {
   
   return (
     <>
-    <header className="bg-gradient-to-tr from-indigo-800 via-purple-800 to-fuchsia-700 flex justify-between items-center p-4">
+    <header className=" flex justify-between items-center p-4">
       <span className="text-white text-xl font-bold">KNFT</span>
 
       <button onClick={()=>setIsOpen(!isOpen)} className="bg-white md:hidden text-purple-700 font-bold py-2 px-4 hover:bg-opacity-75 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">

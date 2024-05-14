@@ -19,7 +19,8 @@
 
 @layer base {
   body {
-    @apply font-sans bg-n-8 text-n-1 text-base;
+    /* @apply font-sans bg-[url(https://wallpapers.com/images/hd/dark-gradient-gw5zb5u4231un4q7.jpg)] bg-center bg-no-repeat bg-cover bg-scroll text-n-1 text-base; */
+    @apply font-sans bg-[url(https://c4.wallpaperflare.com/wallpaper/211/410/402/lines-blue-green-streaks-wallpaper-preview.jpg)] bg-center bg-no-repeat bg-cover bg-scroll text-n-1 text-base;
   }
 }
 
